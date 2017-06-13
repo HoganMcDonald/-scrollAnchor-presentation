@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Angular Presentation</title>
+  <link rel="stylesheet" href="/styles/main.min.css">
+  <script src="vendors/angular.min.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+</head>
+
+<body ng-app="angularPresentation">
+  <div class="controller" ng-controller="mainController as mc">
+    <div class="navBar"></div>
+    <!-- image 1 -->
+    <div class="image" id="image1">
+      <div class="header">
+        <h1>Generic Website</h1>
+        <button ng-click="nextImage()" class="nextSection">Get Involved</button>
+        <button ng-click="nextText()" class="nextSection">Learn More</button>
+      </div>
+    </div>
+    <!-- text 1 -->
+    <div id="text1" class="text">
+      <img id="bird" src="/images/bird.png" alt="">
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum, quam at ornare porta, tortor urna rutrum nibh, eu mattis risus metus id eros. Maecenas fermentum dolor nibh, sit amet tempor orci imperdiet ac. Vivamus massa purus, pharetra
+        mollis pellentesque id, aliquet in nulla. Donec dui quam, condimentum commodo porttitor non, eleifend eget lectus. Sed porta, libero tempus dapibus interdum, dolor erat sagittis est, aliquet aliquam ex turpis ac magna. Aliquam fringilla ultricies
+        pharetra. Pellentesque lorem eros, tempus in pulvinar a, hendrerit vitae dolor.
+      </p>
+      <hr>
+    </div>
+    <!-- image 2 -->
+    <div class="image" id="image2">
+      <div class="header">
+        <h1>$anchorScroll</h1>
+        <button ng-click="bringTop()" class="nextSection">Return</button>
+      </div>
+    </div>
+    <!-- text 2 -->
+    <div class="text">
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum, quam at ornare porta, tortor urna rutrum nibh, eu mattis risus metus id eros. Maecenas fermentum dolor nibh, sit amet tempor orci imperdiet ac. Vivamus massa purus, pharetra
+        mollis pellentesque id, aliquet in nulla. Donec dui quam, condimentum commodo porttitor non, eleifend eget lectus. Sed porta, libero tempus dapibus interdum, dolor erat sagittis est, aliquet aliquam ex turpis ac magna. Aliquam fringilla ultricies
+        pharetra. Pellentesque lorem eros, tempus in pulvinar a, hendrerit vitae dolor.
+      </p>
+      <hr>
+      <div class="smallLinks">
+
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+
+    </div>
+  </div>
+</body>
+
+</html>
